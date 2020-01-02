@@ -21,7 +21,6 @@ public class student {
 		subject.setScorePoint(score);
 		subjectList.add(subject);
 		}
-	
 	public void showStudentInfo() {
 		int total=0;
 		for(Subject subject : subjectList) {
@@ -32,6 +31,5 @@ public class student {
 		
 		System.out.println("ÃÑÁ¡Àº"+total);
 	}
-	
 	
 }
