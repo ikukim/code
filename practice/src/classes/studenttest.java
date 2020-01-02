@@ -8,7 +8,7 @@ public class studenttest {
 		
 		student tom = new student(101,"james");
 		tom.setKorea(200);
-		tom.setmath(100);
+		tom.setmath(90);
 		
 		james.showStudentInfo();
 		tom.showStudentInfo();

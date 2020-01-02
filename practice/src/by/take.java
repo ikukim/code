@@ -14,7 +14,7 @@ public class take {
 		
 		subway sub1=new subway(2);
 		tom.takesub(sub1);
-		tom.showinfo();
+		james.showinfo();
 		tom.showinfo();
 
 	}

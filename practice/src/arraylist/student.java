@@ -24,9 +24,9 @@ public class student {
 	public void showStudentInfo() {
 		int total=0;
 		for(Subject subject : subjectList) {
-			total +=subject.getScorePoint();
-			System.out.println("ÇÐ»ý"+studentName+"´ÔÀÇ"+subject.getName()
-			+subject.getScorePoint());
+//			total +=subject.getScorePoint();
+//			System.out.println("ÇÐ»ý"+studentName+"´ÔÀÇ"+subject.getName()
+//			+subject.getScorePoint());
 		}
 		
 		System.out.println("ÃÑÁ¡Àº"+total);

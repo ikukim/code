@@ -10,7 +10,7 @@ public class student {
 		korea =new subject("국어");
 		math = new subject("수학");
 	}
-	public student(int id, String name) {
+	public student(int id, String name) {   	//생성자 오버로드
 		studentID = id;
 		studentName = name;
 		
