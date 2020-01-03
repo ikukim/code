@@ -2,6 +2,9 @@ package hid;
 
 class dayday{
 	private int day;
+	private int month;
+	private int year;
+	
 	public int getDay() {
 		return day;
 	}
@@ -29,8 +32,7 @@ class dayday{
 	public void setYear(int year) {
 		this.year = year;
 	}
-	private int month;
-	private int year;
+
 }
 
 public class day {
