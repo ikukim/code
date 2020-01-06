@@ -2,7 +2,7 @@ package supers;
 
 class circle{
 	
-	static final double pi=3.141414;   
+	static final double pi=3.141414;   //인스턴스 변수를 static 으로하여 모든 인스턴스간 공유가능
 	private double radius;
 	
 	circle(double radius){		
