@@ -21,7 +21,10 @@ public class thisex{
 		System.out.println(b1);
 		b1.printthis();
 		
+		
 	}
+	
+
 		
 		
 }

@@ -18,11 +18,7 @@ public class Test {
 		customerList.add(c3);
 		customerList.add(c4);
 		
-		System.out.println("=========================");
-		for(Customer customer:customerList) {
-			System.out.println(customer.showCustInfo());
-		}
-		System.out.println("=========================");
+	
 		int price =1000;
 		for(Customer customer:customerList) {
 			int cost = customer.calPrice(1000);

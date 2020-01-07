@@ -16,7 +16,7 @@ public class twodemen {
 		
 		//char[][] alpa = new char[13][2];
 		
-		
+		System.out.println();
 		
 	}
 }

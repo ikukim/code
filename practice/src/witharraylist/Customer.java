@@ -1,7 +1,7 @@
 package witharraylist;
 
 public class Customer {
-	protected int customerID;							//protected 패키지가 달라도 상속관계에서는 보임
+	protected int customerID;															//protected 패키지가 달라도 상속관계에서는 보임
 	protected String customerName;
 	protected String customerGrade;
 	int bonusPoint;
@@ -9,13 +9,7 @@ public class Customer {
 
 	protected double bonusRatio;
 
-	/*
-	public Customer() {						//기본 고객의 정보
-		customerGrade="silver";
-		bonusRatio=0.01;
-		System.out.println("customer호출");
-	}
-	*/
+
 	public Customer(int customerID, String customerName) {
 		this.customerID=customerID;
 		this.customerName=customerName;
