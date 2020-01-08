@@ -7,6 +7,6 @@ public abstract class Notebook extends Computer {
 		System.out.println("notebook display");		
 
 	}
-
+	public void aa() {}
 
 }
