@@ -5,16 +5,7 @@ public class Customer {
 	protected String customerName;
 	protected String customerGrade;
 	int bonusPoint;
-
-
 	protected double bonusRatio;
-
-	
-	public Customer() {						//기본 고객의 정보
-		customerGrade="silver";
-		bonusRatio=0.01;
-		System.out.println("customer호출");
-	}
 	
 	public Customer(int customerID, String customerName) {
 		this.customerID=customerID;

@@ -7,10 +7,10 @@ public class Vip extends Customer {
 		private double saleRatio;
 		private int agentiD;
 		
-	
+		
 
 		public Vip(int customerID, String customerName, int agentID) {												//기본 고객의 정보
-			super(customerID,customerName);
+			super(customerID,customerName);								//부모생성자의 매개변수를 호출
 			customerGrade="vip";
 			bonusRatio=0.05;
 			saleRatio=0.1;
@@ -32,6 +32,7 @@ public class Vip extends Customer {
 		public String showCustInfo() {
 			return customerName + "님의 등급은"+customerGrade+"이며, 보너스 포인트는"+bonusPoint+"입니다";
 		}
+
 		
 		
 	}

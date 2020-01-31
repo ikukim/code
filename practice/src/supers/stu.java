@@ -4,7 +4,6 @@ class Person{
 	private String name;
 	private String email;
 	
-	Person(){}
 	Person(String name){
 		this.name=name;
 	}
@@ -19,7 +18,6 @@ class Student extends Person{
 	private int score;
 	private int grade;
 	
-	Student(){}
 	Student(String name,String email){
 		super(name,email);
 	}

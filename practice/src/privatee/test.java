@@ -7,6 +7,6 @@ public class test {
 		b1.setTitle("aa");
 		System.out.println(b1.getTitle());
 		System.out.println(b1.getPrice());
-		;
+		
 	}
 }

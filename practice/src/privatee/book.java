@@ -4,7 +4,6 @@ public class book {
 	private String title;
 	private int price;
 	
-	book(){}
 	book(String title,int price){
 		this.title=title;
 		this.price=price;
@@ -19,7 +18,7 @@ public class book {
 	int getPrice() {
 		return price;
 	}
-	void setPrice(int price) {
+	 void setPrice(int price) {
 		this.price = price;
 	}
 	
