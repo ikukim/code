@@ -22,7 +22,7 @@ public class BoardController {
 	@Autowired
 	private BoardService boardService;
 
-	@RequestMapping( value = "/boardList")
+	@RequestMapping(value = "/boardList")
 	public String getBoardList(HttpServletRequest request, HttpServletResponse response) throws Exception{
 		
 		return "board/boardList";
