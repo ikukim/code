@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.spring.board.DataSourceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.541 sec - in com.spring.board.DataSourceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.746 sec - in com.spring.board.DataSourceTest
