@@ -101,7 +101,8 @@
 										
 					str += "<td>"+ boardHits +"</td>";
 					str += "<td>"+ boardWriter +"</td>";	
-					str += "<td>"+ insDate +"</td>";	
+					str += "<td>"+ insDate +"</td>";
+					str += "<td>"+ updDate +"</td>";
 					str += "</tr>";
 					
 				} 
@@ -145,6 +146,7 @@
 						<col width="10%" />
 						<col width="15%" />
 						<col width="20%" />
+						<col width="20%" />
 					</colgroup>
 					<thead>		
 						<tr>
@@ -153,6 +155,7 @@
 							<th>조회수</th>
 							<th>작성자</th>
 							<th>작성일</th>
+							<th>수정일</th>
 						</tr>
 					</thead>
 					<tbody id="tbody">
@@ -163,10 +166,10 @@
 			<div class="btn_right mt15">
 				<button type="button" class="btn black mr5" onclick="javascript:goBoardWrite();">작성하기</button>
 			</div>
-		</div>
 		
-		<div id="pagination"></div>
-			
+		
+		<div id="pagination" ></div>
+		</div>
 	</div>
 </div>
 </body>
